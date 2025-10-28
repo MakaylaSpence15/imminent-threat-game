@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Imminent Threat Response Simulator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Imminent Threat Response Simulator</h1>
+    <div id="game">
+        <p>Select your role and respond to threat scenarios.</p>
+        <select id="role">
+            <option>Advisor</option>
+            <option>Team Leader</option>
+            <option>Site Security</option>
+            <option>Global Command Center (GCC)</option>
+        </select>
+        <button onclick="startGame()">Start Game</button>
+        <div id="scenario"></div>
+        <div id="actions"></div>
+        <div id="feedback"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
